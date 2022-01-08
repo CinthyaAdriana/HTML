@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(89, 235, 240);
+} 
+
+.encabezado{
+    font-size: 70px;
+    text-align: center;
+}
+
+.tabla{
+    border: 2px solid black
+}
+
+.tabla, tr, th, td{
+    border: 1px solid black
+
+} 
+
+.negrita{
+    font-weight: bolder;
+}
+
+.cursiva{
+ font-style: oblique;
+}
+
+.naranja{
+    background-color: orange;
+}
+
+.amarillo{
+    background-color: yellow;
+}
+
+.espacionegro{
+    background-color: black;
+}

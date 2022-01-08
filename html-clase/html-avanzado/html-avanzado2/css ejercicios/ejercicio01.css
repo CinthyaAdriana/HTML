@@ -1,0 +1,41 @@
+
+
+form{
+    background-color: green;
+    border: 10px solid aquamarine; 
+    width: 800px;
+    height: 800px;
+    margin: auto; 
+}
+
+.titulo{
+    color: white;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 40px;
+    margin-left: 50px;
+}
+
+.datos{
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 20px; 
+    color:white;
+    padding: 5px;
+    margin-left: 250px;
+
+} 
+
+.recuadro{
+    border: 2px solid red;
+    margin-left: 10px;
+
+} 
+
+.justi{
+    display: inline-block;
+    width: 80px;
+}
+
+p{
+    color: white;
+}

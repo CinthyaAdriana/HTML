@@ -1,0 +1,15 @@
+table, tr, th, td{
+    border: 1px sold black
+} 
+
+table{
+    border: 2px solid black;
+}
+
+th{
+    background-color: coral;
+}
+
+td{
+    background-color: darkgreen;
+}

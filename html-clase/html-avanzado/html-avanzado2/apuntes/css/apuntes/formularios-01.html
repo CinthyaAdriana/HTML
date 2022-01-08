@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formularios01.css">
+    <title>Formularios</title>
+</head> 
+<body>
+    <form>
+        <input type="text" />
+        <input type="date" /> 
+        <input type="color" />
+        <input type="password"> 
+        <input type="file"> 
+        <input type="checkbox">
+        <input type="radio"> <!-- Es como checkbox, pero circular  y no se puede quitar la seleccion seleccionar--> 
+        <input type="submit"> <!--El boton de "enviar" algo-->
+    </form> 
+    <h1>Formulario</h1>
+    <button>Hola</button> <!--Etiqueta para boton-->
+    <form class= "Nombre">
+        <div>
+        <label for="Nombre">Nombre</label> <!--Nombre al imput que estamos creando-->
+        <input id="Nombre" type="text" name="Nombre" placeholder="Esccribe tu nombre.." required/> <!--para agregar un recuadro que se debe responder--> 
+        </div>
+        <div>
+        <label for="Apellido">Apellido</label> 
+        <input id= "Apellido" type="text" name="Apellido" placeholder="Escribe tu apellido.."> 
+
+        </div>
+        <div class="password">
+            <label for="password">password</label> 
+            <input id="password" type="password" name="password" placeholder="Escribe tu contraseña"> 
+        </div> 
+        <div class="correo">
+            <label for="correo">Corrreo</label>
+            <input id=correo name="correo" type="email" placeholder="Escribe tu correo">
+        </div>
+
+        <div class="enviar"> <!--Para enviar la infromación de la contraseña-->
+            <input type="submit"> 
+        </div>
+<form> 
+     <!-- Fieldset es opcional es una etiqueta para agrupar-->
+    <fieldset>
+        <legend>Ingresa el número</legend>
+        <label for="numero">Numero</label>
+        <input id="numero" type="number" name="numero"> 
+<labe for="rango"></labe> <!--barrita movible-->
+        <input id="rango" name="rango" type="range" min="50">
+    </fieldset>
+</form>
+        
+    </form>
+</body>
+</html>

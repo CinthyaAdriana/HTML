@@ -1,0 +1,11 @@
+.table tr, th, td{
+border: black double 4px;
+} 
+
+.tabla{
+    border: double black 5px;
+}
+
+tbody{
+    align-self: start;
+}
